@@ -6,15 +6,15 @@ This is a basic LAMP stack environment built using Docker Compose. It consists f
 * Apache 2.4
 * MySQL 5.7 and MySQL 8 or MariaDB 10.3
 * phpMyAdmin
-* Redis
+<!-- * Redis -->
 
 ## Installation
 
 Clone this repository on your local computer and switch to branch `7.4.x`. Run the `docker-compose up -d`.
 
 ```shell
-git clone https://github.com/sprintcube/docker-compose-lamp.git
-cd docker-compose-lamp/
+git clone https://github.com/khoivan88/centos-docker-compose-lamp.git
+cd centos-docker-compose-lamp/
 git fetch --all
 git checkout 7.4.x
 cp sample.env .env
@@ -118,6 +118,6 @@ http://localhost:8080/
 username: root  
 password: tiger
 
-## Redis
+<!-- ## Redis
 
-It comes with Redis. It runs on default port `6379`.
+It comes with Redis. It runs on default port `6379`. -->
